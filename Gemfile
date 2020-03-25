@@ -2,9 +2,9 @@ source 'http://rubygems.org'
 ruby '2.2.3'
 
 gem 'sinatra'
-gem 'neography'
+gem 'neography', '>= 1.8.0'
 gem 'haml'
-gem 'json'
+gem 'json', '>= 2.3.0'
 
 group :test do
   gem 'rspec'
